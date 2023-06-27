@@ -1,4 +1,4 @@
-## Introduction to kubernetes
+## Introduction to Kubernetes
 ### Why Kubernetes?
 - Kubernetes has emerged as a leading tool in cloud computing, gaining increasing popularity and widespread adoption.
 - It is rapidly becoming a standard choice for major companies, who are actively migrating their infrastructure to leverage the [[Power and Benefits of Kubernetes]].
