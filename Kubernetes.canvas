@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"d1de59fb84eddc63","x":-300,"y":-140,"width":400,"height":400,"type":"file","file":"Introduction to kubernetes.md"}
+	],
+	"edges":[]
+}
