@@ -1,9 +1,23 @@
 {
 	"nodes":[
-		{"type":"file","file":"Introduction to Kubernetes.md","id":"d1de59fb84eddc63","x":-300,"y":-140,"width":400,"height":400},
-		{"id":"f384797eb7675667","x":-840,"y":-220,"width":380,"height":419,"type":"file","file":"Power and Benefits of Kubernetes.md"}
+		{"type":"file","file":"Power and Benefits of Kubernetes.md","id":"f384797eb7675667","x":-880,"y":-50,"width":380,"height":419},
+		{"type":"file","file":"Main kubernetes components.md","id":"2c03631a904de229","x":360,"y":-31,"width":360,"height":400},
+		{"type":"file","file":"Ingress.md","id":"abffddc5b9e2328a","x":-240,"y":600,"width":400,"height":400},
+		{"type":"file","file":"ConfigMap.md","id":"62b404402e8f5a08","x":-700,"y":600,"width":400,"height":400},
+		{"type":"file","file":"Secret.md","id":"9392df28b0bee73e","x":-1160,"y":600,"width":400,"height":400},
+		{"type":"file","file":"Service.md","id":"3a1806f80b8198e6","x":240,"y":600,"width":400,"height":400},
+		{"type":"file","file":"Pod.md","id":"3ac281712c2c0126","x":720,"y":600,"width":400,"height":400},
+		{"type":"file","file":"Volume.md","id":"74c1673e200846e0","x":1240,"y":600,"width":400,"height":400},
+		{"type":"file","file":"Introduction to Kubernetes.md","id":"d1de59fb84eddc63","x":-300,"y":-160,"width":380,"height":400}
 	],
 	"edges":[
-		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"}
+		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
+		{"id":"f7c0bdc121db3a6b","fromNode":"d1de59fb84eddc63","fromSide":"right","toNode":"2c03631a904de229","toSide":"left"},
+		{"id":"c666c53e8829e3b6","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"3ac281712c2c0126","toSide":"top"},
+		{"id":"aac28f786a70bcb0","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"3a1806f80b8198e6","toSide":"top"},
+		{"id":"a2ce8cd7d311f3bb","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"abffddc5b9e2328a","toSide":"top"},
+		{"id":"c438f13c19d1ce53","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"62b404402e8f5a08","toSide":"top"},
+		{"id":"1b6f9b9182926e48","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"9392df28b0bee73e","toSide":"top"},
+		{"id":"c1b37d4426223794","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"74c1673e200846e0","toSide":"top"}
 	]
 }

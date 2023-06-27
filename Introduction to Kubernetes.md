@@ -1,13 +1,18 @@
 ## Introduction to Kubernetes
+
+---
 ### Why Kubernetes?
+---
 - Kubernetes has emerged as a leading tool in cloud computing, gaining increasing popularity and widespread adoption.
 - It is rapidly becoming a standard choice for major companies, who are actively migrating their infrastructure to leverage the [[Power and Benefits of Kubernetes]].
 
 ### What is Kubernetes?
+---
 - Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
 - It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
 
 ###  What problems does Kubernetes solve?
+---
 - With the rise of microservices architecture, there has been an increased demand for containerized applications.
 - Managing a large number of containers in an environment through manual scripting can be extremely challenging.
 - Kubernetes solves this problem by providing an efficient and automated approach to manage containers.
