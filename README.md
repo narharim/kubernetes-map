@@ -1,5 +1,8 @@
 # kubernetes-map
 
+## Idea
+- The Idea of the project is to create a [second brain](https://fortelabs.com/blog/basboverview/) for kubernetes.
+
 ## Installation
 - Clone the git repository into your local machine
 - To setup the vault in your machine you will require to download [obsidian](https://obsidian.md/)
