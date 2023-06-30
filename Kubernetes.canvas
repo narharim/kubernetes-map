@@ -8,7 +8,9 @@
 		{"type":"file","file":"Service.md","id":"3a1806f80b8198e6","x":240,"y":600,"width":400,"height":400},
 		{"type":"file","file":"Pod.md","id":"3ac281712c2c0126","x":720,"y":600,"width":400,"height":400},
 		{"type":"file","file":"Volume.md","id":"74c1673e200846e0","x":1240,"y":600,"width":400,"height":400},
-		{"type":"file","file":"Introduction to Kubernetes.md","id":"d1de59fb84eddc63","x":-300,"y":-160,"width":380,"height":400}
+		{"type":"file","file":"Introduction to Kubernetes.md","id":"d1de59fb84eddc63","x":-300,"y":-160,"width":380,"height":400},
+		{"type":"file","file":"container.md","id":"a0dffd64e3330ef5","x":-880,"y":-720,"width":380,"height":400},
+		{"id":"5b353c556dc64809","x":-1469,"y":-880,"width":400,"height":400,"type":"file","file":"Linux kernal namespaces.md"}
 	],
 	"edges":[
 		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
@@ -18,6 +20,8 @@
 		{"id":"a2ce8cd7d311f3bb","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"abffddc5b9e2328a","toSide":"top"},
 		{"id":"c438f13c19d1ce53","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"62b404402e8f5a08","toSide":"top"},
 		{"id":"1b6f9b9182926e48","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"9392df28b0bee73e","toSide":"top"},
-		{"id":"c1b37d4426223794","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"74c1673e200846e0","toSide":"top"}
+		{"id":"c1b37d4426223794","fromNode":"2c03631a904de229","fromSide":"bottom","toNode":"74c1673e200846e0","toSide":"top"},
+		{"id":"1549754e53320966","fromNode":"d1de59fb84eddc63","fromSide":"top","toNode":"a0dffd64e3330ef5","toSide":"bottom"},
+		{"id":"270028e8953042d4","fromNode":"a0dffd64e3330ef5","fromSide":"left","toNode":"5b353c556dc64809","toSide":"right"}
 	]
 }
