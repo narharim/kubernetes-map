@@ -1,5 +1,6 @@
 ## Pods
-
+---
+-   Prerequisite : [[container]]
 ---
 ### What is a pod in Kubernetes?
 ---
@@ -26,7 +27,7 @@ directory mounted as [[Volume]], while an additional container (a sidecar contai
 - Containers in a pod run in same Network namespace, they share the same IP address and port space. This means that we cannot run the processes in containers of the same pod which has same port number or we'll run into port conflicts.
 - However, Containers of different pods can run on same port, because each pod has a separate port space. 
 
-#### Next we're going to see [[]]
+#### Next we're going to see [[Pod Lifecycle]]
 ## References
 1. https://kubernetes.io/docs/concepts/workloads/pods/
 2. https://www.middlewareinventory.com/blog/why-we-need-pod-in-kubernetes/

@@ -1,5 +1,7 @@
 ## Main Kubernetes Components 
 ---
+-  Prerequisite : [[Introduction to Kubernetes]] 
+---
 1) [[Pod]]
 2) [[Service]]
 3) [[Ingress]]
