@@ -11,6 +11,6 @@
 7) [[StatefulSet]]  
 8) [[Deployment]]
 9) [[Daemon Set]]
-#### Next we're going to see [[Kubernetes Architecture  Control Plane and Worker Nodes]]
+#### Next we're going to see [[Kubernetes Architecture Control Plane and Worker Nodes]]
 ## References
 1.
