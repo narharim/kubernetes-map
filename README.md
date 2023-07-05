@@ -2,7 +2,10 @@
 
 ## Idea
 - The Idea of the project is to create a [second brain](https://fortelabs.com/blog/basboverview/) for kubernetes.
+- Map View
 - ![MAP](kubernetes-map.png)
+- Graph View
+- ![GRAPH](kubernetes-graph.png)
 
 ## Installation
 - Clone the git repository into your local machine

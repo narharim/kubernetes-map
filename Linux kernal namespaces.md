@@ -26,6 +26,7 @@
  - While running the container the first process created gets the number 1. This has same privilege and capabilities as the usual init process in normal linux system.
  ### Network Namespace
  - Network Namespace provides isolation of components related to networking like network devices, ip tables, firewall rules.
+ - 
  ### User Namespace
  ### Control Namespace
  
