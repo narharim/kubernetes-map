@@ -10,11 +10,12 @@
 		{"type":"file","file":"Volume.md","id":"74c1673e200846e0","x":1240,"y":600,"width":400,"height":400},
 		{"type":"file","file":"Introduction to Kubernetes.md","id":"d1de59fb84eddc63","x":-300,"y":-160,"width":380,"height":400},
 		{"type":"file","file":"container.md","id":"a0dffd64e3330ef5","x":-880,"y":-720,"width":380,"height":400},
-		{"type":"file","file":"Linux kernal namespaces.md","id":"5b353c556dc64809","x":-1469,"y":-880,"width":400,"height":400},
+		{"type":"file","file":"Linux kernel namespaces.md","id":"5b353c556dc64809","x":-1469,"y":-880,"width":400,"height":400},
 		{"type":"file","file":"Pod Lifecycle.md","id":"d3196a4d8ad572b7","x":840,"y":1120,"width":400,"height":400},
 		{"type":"file","file":"Kubernetes Architecture Control Plane and Worker Nodes.md","id":"98b3dfe83ebbc526","x":960,"y":-231,"width":400,"height":400},
 		{"type":"link","url":"https://twitter.com/narharistwt/status/1494958030600900610","id":"6a4de657a946aa1b","x":-1469,"y":-391,"width":400,"height":360},
-		{"type":"link","url":"https://twitter.com/narharistwt/status/1495253299435433986","id":"47a0665ac75fe6b1","x":-440,"y":-720,"width":400,"height":286}
+		{"type":"link","url":"https://twitter.com/narharistwt/status/1495253299435433986","id":"47a0665ac75fe6b1","x":-440,"y":-720,"width":400,"height":286},
+		{"id":"2883752c8e047225","x":-2000,"y":-1120,"width":400,"height":400,"type":"file","file":"Namespace APIs.md"}
 	],
 	"edges":[
 		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
@@ -28,6 +29,7 @@
 		{"id":"1549754e53320966","fromNode":"d1de59fb84eddc63","fromSide":"top","toNode":"a0dffd64e3330ef5","toSide":"bottom"},
 		{"id":"270028e8953042d4","fromNode":"a0dffd64e3330ef5","fromSide":"left","toNode":"5b353c556dc64809","toSide":"right"},
 		{"id":"cc7ca5dd80d4c7df","fromNode":"3ac281712c2c0126","fromSide":"bottom","toNode":"d3196a4d8ad572b7","toSide":"top"},
-		{"id":"6b76793e283e461f","fromNode":"2c03631a904de229","fromSide":"right","toNode":"98b3dfe83ebbc526","toSide":"left"}
+		{"id":"6b76793e283e461f","fromNode":"2c03631a904de229","fromSide":"right","toNode":"98b3dfe83ebbc526","toSide":"left"},
+		{"id":"5233b93b724f82d1","fromNode":"5b353c556dc64809","fromSide":"left","toNode":"2883752c8e047225","toSide":"right"}
 	]
 }

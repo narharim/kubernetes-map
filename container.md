@@ -8,7 +8,7 @@
 -
 ### How we can limit the resources available to a process?
 
-- [[Linux kernal namespaces]]
+- [[Linux kernel namespaces]]
 
 #### Next we're going to see [[]]
 ### References

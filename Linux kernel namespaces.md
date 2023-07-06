@@ -36,6 +36,6 @@
 - Control Group (group) namespaces allow us to create groups within which the usage of various types of system resources can be limited, like processes, memory, and CPU.
 - This allows to defines the equal share of the process running across different namespaces and preventing one process from fully exhaust the available resources
  
-#### Next we're going to see [[]]
+#### Next we're going to see [[Namespace APIs]]
 ### References
 1.
