@@ -7,6 +7,7 @@
 - This provides an environment wherein the processes running inside a namespace have separate system resources like file system, CPU, memory, and more.
 - Changes to the system resources inside the namespace are visible to the processes within the same namespace and are invisible to other processes running in different namespace
 - Namespaces as the building foundation for **containers**.
+- 
 ## There are a total of 7 Linux Kernal Namespaces
  ### Mount Namespace 
  - In Linux, the file system is like a big tree with directories, and files and processes in our system share the same view of this tree.
@@ -38,4 +39,4 @@
  
 #### Next we're going to see [[Namespace APIs]]
 ### References
-1.
+1. https://man7.org/linux/man-pages/man7/namespaces.7.html
