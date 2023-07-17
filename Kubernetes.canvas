@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"ec5d2798dba8535a","x":1549,"y":-362,"width":400,"height":400,"type":"file","file":"How to create and manage k8s components.md"},
 		{"type":"file","file":"Power and Benefits of Kubernetes.md","id":"f384797eb7675667","x":-880,"y":-50,"width":380,"height":419},
 		{"type":"file","file":"Main kubernetes components.md","id":"2c03631a904de229","x":360,"y":-31,"width":360,"height":400},
 		{"type":"file","file":"Ingress.md","id":"abffddc5b9e2328a","x":-240,"y":600,"width":400,"height":400},
@@ -16,7 +17,7 @@
 		{"type":"link","url":"https://twitter.com/narharistwt/status/1494958030600900610","id":"6a4de657a946aa1b","x":-1469,"y":-391,"width":400,"height":360},
 		{"type":"link","url":"https://twitter.com/narharistwt/status/1495253299435433986","id":"47a0665ac75fe6b1","x":-440,"y":-720,"width":400,"height":286},
 		{"type":"file","file":"Namespace APIs.md","id":"2883752c8e047225","x":-2000,"y":-1120,"width":400,"height":360},
-		{"id":"65f6250c6dd6b766","x":1440,"y":-777,"width":400,"height":457,"type":"file","file":"Excalidraw/K8s-Architecture.excalidraw.md"}
+		{"type":"file","file":"Excalidraw/K8s-Architecture.excalidraw.md","id":"65f6250c6dd6b766","x":1440,"y":-777,"width":400,"height":457}
 	],
 	"edges":[
 		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
@@ -31,6 +32,7 @@
 		{"id":"270028e8953042d4","fromNode":"a0dffd64e3330ef5","fromSide":"left","toNode":"5b353c556dc64809","toSide":"right"},
 		{"id":"cc7ca5dd80d4c7df","fromNode":"3ac281712c2c0126","fromSide":"bottom","toNode":"d3196a4d8ad572b7","toSide":"top"},
 		{"id":"6b76793e283e461f","fromNode":"2c03631a904de229","fromSide":"right","toNode":"98b3dfe83ebbc526","toSide":"left"},
-		{"id":"5233b93b724f82d1","fromNode":"5b353c556dc64809","fromSide":"left","toNode":"2883752c8e047225","toSide":"right"}
+		{"id":"5233b93b724f82d1","fromNode":"5b353c556dc64809","fromSide":"left","toNode":"2883752c8e047225","toSide":"right"},
+		{"id":"612cc139717aa8bc","fromNode":"98b3dfe83ebbc526","fromSide":"right","toNode":"ec5d2798dba8535a","toSide":"left"}
 	]
 }
