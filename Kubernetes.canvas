@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"4d9cffc79c8a2b56","x":476,"y":-257,"width":250,"height":60,"type":"text","text":""},
 		{"type":"file","file":"Power and Benefits of Kubernetes.md","id":"f384797eb7675667","x":-880,"y":-50,"width":380,"height":419},
 		{"type":"file","file":"Main kubernetes components.md","id":"2c03631a904de229","x":360,"y":-31,"width":360,"height":400},
 		{"type":"file","file":"Ingress.md","id":"abffddc5b9e2328a","x":-240,"y":600,"width":400,"height":400},

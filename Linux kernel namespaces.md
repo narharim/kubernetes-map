@@ -1,13 +1,12 @@
-## Linux kernel namespaces
----
--  Prerequisite : [[container]]
----
+# Linux kernel namespaces
+
 ## What is a namespace?
 - In simple terms, namespaces are like isolated environments that isolate processes from each other.
 - This provides an environment wherein the processes running inside a namespace have separate system resources like file system, CPU, memory, and more.
 - Changes to the system resources inside the namespace are visible to the processes within the same namespace and are invisible to other processes running in different namespace
 - Namespaces as the building foundation for **containers**.
-- 
+
+
 ## There are a total of 7 Linux Kernal Namespaces
  ### Mount Namespace 
  - In Linux, the file system is like a big tree with directories, and files and processes in our system share the same view of this tree.
@@ -37,6 +36,6 @@
 - Control Group (group) namespaces allow us to create groups within which the usage of various types of system resources can be limited, like processes, memory, and CPU.
 - This allows to defines the equal share of the process running across different namespaces and preventing one process from fully exhaust the available resources
  
-#### Next we're going to see [[Namespace APIs]]
+⬅️ [[container]] | [[Namespace APIs]] ➡️ 
 ### References
 1. https://man7.org/linux/man-pages/man7/namespaces.7.html

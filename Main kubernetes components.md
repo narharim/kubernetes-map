@@ -1,7 +1,4 @@
-## Main Kubernetes Components 
----
--  Prerequisite : [[Introduction to Kubernetes]] 
----
+# Main Kubernetes Components 
 1) [[Pod]]
 2) [[Service]]
 3) [[Ingress]]
@@ -11,6 +8,8 @@
 7) [[StatefulSet]]  
 8) [[Deployment]]
 9) [[Daemon Set]]
-#### Next we're going to see [[Kubernetes Architecture Control Plane and Worker Nodes]]
+---
+⬅️ [[Introduction to Kubernetes]] | [[Kubernetes Architecture Control Plane and Worker Nodes]] ➡️
+
 ## References
 1.
