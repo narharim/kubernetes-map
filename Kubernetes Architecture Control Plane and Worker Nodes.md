@@ -1,7 +1,4 @@
-## Kubernetes Architecture Control Plane and Worker Nodes
----
--  Prerequisite : [[Main kubernetes components]]
----
+# Kubernetes Architecture Control Plane and Worker Nodes
 
 - Kubernetes architecture is based on a server (Master Node) and worker (Worker Nodes) style. 
 1. Master Node: The master node is responsible for managing the cluster. It includes several key components:
@@ -14,6 +11,7 @@
     - Kubelet: Communicates with the master node and manages containers on the node.
     - Container Runtime: Responsible for pulling and running containers, such as containerd and CRI-O.
     - Kube Proxy: Handles network routing and load balancing for services running on the node.
-#### Next we're going to see [[How to create and manage k8s components]]
+---
+⬅️ [[Main kubernetes components]] | [[How to create and manage k8s components]] ➡️
 ### References
-1.
+1. https://kubernetes.io/docs/concepts/architecture/

@@ -1,15 +1,13 @@
 # Main Kubernetes Components 
 1) [[Pod]]
-2) [[Service]]
-3) [[Ingress]]
-4) [[ConfigMap]]
-5) [[Secret]]
-6) [[Volume]]
-7) [[StatefulSet]]  
-8) [[Deployment]]
-9) [[Daemon Set]]
+2) [[ReplicaSet]]
+3) [[Service]]
+4) [[Ingress]]
+5) [[ConfigMap]]
+6) [[Secret]]
+7) [[Volume]]
+8) [[StatefulSet]]  
+9) [[Deployment]]
+10) [[Daemon Set]]
 ---
 ⬅️ [[Introduction to Kubernetes]] | [[Kubernetes Architecture Control Plane and Worker Nodes]] ➡️
-
-## References
-1.

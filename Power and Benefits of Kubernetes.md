@@ -1,7 +1,4 @@
-## Power and Benefits of Kubernetes  
----
--  Prerequisite : [[Introduction to Kubernetes]]
----
+# Power and Benefits of Kubernetes  
 1. **Scalability**: Kubernetes enables you to scale your applications easily. It allows you to scale up or down the number of containers running your application based on the workload. This ensures that your application can handle increased traffic or demand without any downtime or performance issues.
 
 2. **Container Orchestration**: Kubernetes simplifies the management of containers. It automates the deployment, scaling, and management of containers across multiple hosts or clusters. It handles tasks like container scheduling, load balancing, service discovery, and health monitoring, making it easier to run and manage containerised applications.
@@ -16,5 +13,5 @@
 
 7. **Community and Support**: Kubernetes has a large and active community of developers and users. It has extensive documentation, tutorials, and a wealth of online resources available. This active community ensures regular updates, bug fixes, and improvements to the platform, and provides support and assistance to users.
 
-## References
+### References
 1. https://www.ibm.com/cloud/blog/top-7-benefits-of-kubernetes
