@@ -42,6 +42,8 @@ spec:
 - `Recreate` will bring all pods down and starts new ones with new version
 - `RollingUpdate` will bring one pod down and start new one and so on
 - `RollingUpdate` is default strategy
+
+## Commands
 1. create deployment
 >`kubectl create -f deployment-definition.yml` 
 
@@ -52,7 +54,7 @@ spec:
 4. rollout status
 >`kubectl rollout status <deployment-name>`
 5. rollout history
->`kubectl rollout status <deployment-name>`
+>`kubectl rollout history <deployment-name>`
 6. rollout undo
 >`kubectl rollout undo <deployment-name>`
 
