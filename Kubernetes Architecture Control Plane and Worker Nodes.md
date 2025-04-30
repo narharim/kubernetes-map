@@ -12,6 +12,6 @@
     - Container Runtime: Responsible for pulling and running containers, such as containerd and CRI-O.
     - Kube Proxy: Handles network routing and load balancing for services running on the node.
 ---
-⬅️ [[Main kubernetes components]] | [[How to create and manage k8s components]] ➡️
+⬅️ [[Introduction to Kubernetes]] | [[How to create and manage k8s components]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/architecture/

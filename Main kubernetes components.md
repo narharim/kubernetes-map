@@ -10,4 +10,4 @@
 9) [[StatefulSet]]  
 10) [[Daemon Set]]
 ---
-⬅️ [[Introduction to Kubernetes]] | [[Kubernetes Architecture Control Plane and Worker Nodes]] ➡️
+⬅️ [[How to create and manage k8s components]] | [[Objects In Kubernetes]] ➡️

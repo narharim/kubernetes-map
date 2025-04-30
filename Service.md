@@ -50,6 +50,6 @@ spec:
 4. expose a pods as a service**
 > `kubectl expose pod <pod-name> --port=80 --name <service-name> --type=NodePort`
 
-⬅️ [[Deployment]] | [[Namespace]] ➡️
+⬅️ [[Deployment]] | [[Namespaces]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/services-networking/service/

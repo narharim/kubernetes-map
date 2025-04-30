@@ -11,4 +11,4 @@
 |Operations|Operate directly on live objects|Operate on object's configuration files|
 |Limitation|Not suitable for managing complex architectures|YAML configuration files offer a more scalable approach for complex scenarios|
 
-⬅️ [[Kubernetes Architecture Control Plane and Worker Nodes]] | [[]] ➡️
+⬅️ [[Kubernetes Architecture Control Plane and Worker Nodes]] | [[Main kubernetes components]] ➡️
