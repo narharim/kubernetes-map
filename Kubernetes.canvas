@@ -18,12 +18,12 @@
 		{"id":"424536f8295566b6","type":"file","file":"ReplicaSet.md","x":1760,"y":600,"width":400,"height":400},
 		{"id":"e6aa13e1d0113885","type":"file","file":"Deployment.md","x":2280,"y":600,"width":400,"height":400},
 		{"type":"file","file":"Kubernetes Architecture Control Plane and Worker Nodes.md","id":"98b3dfe83ebbc526","x":320,"y":-250,"width":400,"height":400},
-		{"id":"c4541f1eb5c01917","type":"file","file":"Objects In Kubernetes.md","x":2646,"y":-731,"width":400,"height":400},
-		{"id":"2a23bfad40d823f6","type":"file","file":"Namespaces.md","x":2396,"y":-155,"width":400,"height":400},
 		{"type":"file","file":"Main kubernetes components.md","id":"2c03631a904de229","x":1460,"y":-40,"width":360,"height":400},
 		{"type":"file","file":"How to create and manage k8s components.md","id":"ec5d2798dba8535a","x":920,"y":-155,"width":400,"height":400},
-		{"id":"6f158ec9658d7d29","x":3815,"y":200,"width":400,"height":400,"type":"file","file":"Policies.md"},
-		{"id":"d9eab0605ab78d50","x":3523,"y":837,"width":400,"height":400,"type":"file","file":"Resource Quotas.md"}
+		{"id":"2a23bfad40d823f6","type":"file","file":"Namespaces.md","x":2920,"y":600,"width":400,"height":400},
+		{"id":"c4541f1eb5c01917","type":"file","file":"Objects In Kubernetes.md","x":2080,"y":-80,"width":400,"height":400},
+		{"id":"6f158ec9658d7d29","type":"file","file":"Policies.md","x":3800,"y":-40,"width":400,"height":400},
+		{"id":"d9eab0605ab78d50","type":"file","file":"Resource Quotas.md","x":3600,"y":520,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
@@ -45,6 +45,6 @@
 		{"id":"f4effdde251dae34","fromNode":"2c03631a904de229","fromSide":"right","toNode":"c4541f1eb5c01917","toSide":"left"},
 		{"id":"bf0f925ebf792bca","fromNode":"c4541f1eb5c01917","fromSide":"bottom","toNode":"2a23bfad40d823f6","toSide":"top"},
 		{"id":"295f05a0dfee2d7e","fromNode":"6f158ec9658d7d29","fromSide":"bottom","toNode":"d9eab0605ab78d50","toSide":"top"},
-		{"id":"8132d1e0a7a31ffb","fromNode":"2a23bfad40d823f6","fromSide":"right","toNode":"d9eab0605ab78d50","toSide":"left"}
+		{"id":"b4b2611d52894404","fromNode":"2a23bfad40d823f6","fromSide":"right","toNode":"d9eab0605ab78d50","toSide":"left"}
 	]
 }

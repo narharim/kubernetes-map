@@ -1,8 +1,6 @@
-## ConfigMap
----
--  Prerequisite : [[]]
----
+# ConfigMap
 
-#### Next we're going to see [[]]
+---
+⬅️ [[Service]] | [[Secret]] ➡️
 ### References
 1.

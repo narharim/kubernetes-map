@@ -47,9 +47,9 @@ spec:
 3. describe service
 > `kubectl describe svc <service-name>`
 
-4. expose a pods as a service**
+4. expose a pods as a service
 > `kubectl expose pod <pod-name> --port=80 --name <service-name> --type=NodePort`
 
-⬅️ [[Deployment]] | [[Namespaces]] ➡️
+⬅️ [[Deployment]] | [[ConfigMap]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/services-networking/service/
