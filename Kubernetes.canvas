@@ -2,8 +2,8 @@
 	"nodes":[
 		{"type":"file","file":"Power and Benefits of Kubernetes.md","id":"f384797eb7675667","x":-880,"y":-50,"width":380,"height":419},
 		{"type":"file","file":"Ingress.md","id":"abffddc5b9e2328a","x":-240,"y":600,"width":400,"height":400},
-		{"type":"file","file":"ConfigMap.md","id":"62b404402e8f5a08","x":-700,"y":600,"width":400,"height":400},
-		{"type":"file","file":"Secret.md","id":"9392df28b0bee73e","x":-1160,"y":600,"width":400,"height":400},
+		{"type":"file","file":"ConfigMaps.md","id":"62b404402e8f5a08","x":-700,"y":600,"width":400,"height":400},
+		{"type":"file","file":"Secrets.md","id":"9392df28b0bee73e","x":-1160,"y":600,"width":400,"height":400},
 		{"type":"file","file":"Service.md","id":"3a1806f80b8198e6","x":240,"y":600,"width":400,"height":400},
 		{"type":"file","file":"Pod.md","id":"3ac281712c2c0126","x":720,"y":600,"width":400,"height":400},
 		{"type":"file","file":"Volume.md","id":"74c1673e200846e0","x":1240,"y":600,"width":400,"height":400},
