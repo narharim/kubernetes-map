@@ -1,7 +1,7 @@
-# Policies
 
 ---
 - [[Resource Quotas]]
+- [[Limit Range]]
 ---
 ⬅️ [[]] | [[]] ➡️
 ### References

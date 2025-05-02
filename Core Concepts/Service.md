@@ -1,4 +1,4 @@
-# Service
+
 ---
 - Service helps connect applications inside the cluster or to external users. 
 - Pods can die and new ones may be created with different IP addresses.

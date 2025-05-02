@@ -1,5 +1,3 @@
-# Pods
-
 ### What is a Pod in Kubernetes?
 ---
 -   Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
@@ -27,7 +25,7 @@ directory mounted as [[Volume]], while an additional container (a sidecar contai
 
 
 ---
-⬅️ [[container]] | [[Pod Lifecycle]] ➡️
+⬅️ [[Container]] | [[Pod Lifecycle]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/workloads/pods/
 2. https://www.middlewareinventory.com/blog/why-we-need-pod-in-kubernetes/

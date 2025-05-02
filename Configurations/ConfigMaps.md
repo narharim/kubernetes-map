@@ -1,4 +1,4 @@
-# ConfigMaps
+
 ---
 - ConfigMaps are used to pass configuration data in the form of key-value pairs.
 - Pod can consume these key-value pairs as environment variables for the application running inside it.

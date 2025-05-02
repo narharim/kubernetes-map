@@ -1,4 +1,3 @@
-# Namespaces
 
 ---
 - Namespaces groups resources to provide isolation between them.

@@ -1,5 +1,3 @@
-# Objects In Kubernetes
-
 1) [[Namespaces]]
 
 ---

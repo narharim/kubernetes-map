@@ -1,6 +1,6 @@
 # Main Kubernetes Components 
 1) [[Pod]]
-2) [[ReplicaSet]]
+2) [[ReplicaSets]]
 3) [[Deployment]]
 4) [[Service]]
 5) [[Ingress]]

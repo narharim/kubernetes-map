@@ -1,4 +1,3 @@
-# Secrets
 
 ---
 - Secrets are used to pass sensitive data in the form of key-value pairs.
@@ -55,6 +54,6 @@ To get single env from secret we can use
 6. describe secret
 > `kubectl describe configmaps`
 
-⬅️ [[ConfigMaps]] | [[]] ➡️
+⬅️ [[ConfigMaps]] | [[Security Context]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/configuration/secret/

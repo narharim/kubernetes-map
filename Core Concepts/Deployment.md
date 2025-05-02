@@ -1,4 +1,4 @@
-# Deployment
+
 ---
 - Deployment is like a manager in kubernetes.
 - Deployment manages ReplicaSets, supports rollbacks, and updates the currently running application version.
@@ -59,6 +59,6 @@ spec:
 >`kubectl rollout undo <deployment-name>`
 
 ---
-⬅️ [[ReplicaSet]] | [[Service]] ➡️
+⬅️ [[ReplicaSets]] | [[Service]] ➡️
 ### References
 1.

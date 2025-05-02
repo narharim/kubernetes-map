@@ -1,4 +1,3 @@
-# Resource Quotas
 
 ---
 - It helps prevent one team/user from over consuming cluster resources. and give fair usage among multiple teams sharing the same cluster.

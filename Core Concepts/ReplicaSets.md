@@ -1,6 +1,5 @@
-# ReplicaSet
----
 
+---
 - The ReplicaSet ensures that the specified number of pods is always running.
     
 - For example: If we specify the number of pods as 3 for a ReplicaSet, then at any given point, the number of pods running will be 3.

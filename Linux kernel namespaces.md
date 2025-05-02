@@ -1,5 +1,3 @@
-# Linux kernel namespaces
-
 ## What is a namespace?
 - In simple terms, namespaces are like isolated environments that isolate processes from each other.
 - This provides an environment wherein the processes running inside a namespace have separate system resources like file system, CPU, memory, and more.
@@ -36,6 +34,6 @@
 - Control Group (group) namespaces allow us to create groups within which the usage of various types of system resources can be limited, like processes, memory, and CPU.
 - This allows to defines the equal share of the process running across different namespaces and preventing one process from fully exhaust the available resources
  
-⬅️ [[container]] | [[Namespace APIs]] ➡️ 
+⬅️ [[Container]] | [[Namespace APIs]] ➡️ 
 ### References
 1. https://man7.org/linux/man-pages/man7/namespaces.7.html
