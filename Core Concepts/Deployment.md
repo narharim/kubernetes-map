@@ -1,8 +1,8 @@
-
----
+___
 - Deployment is like a manager in kubernetes.
 - Deployment manages ReplicaSets, supports rollbacks, and updates the currently running application version.
 - Definition for creating Deployment is same as ReplicaSets. Value of `kind` field is replaced with `Deployment`
+___
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -42,7 +42,7 @@ spec:
 - `Recreate` will bring all pods down and starts new ones with new version
 - `RollingUpdate` will bring one pod down and start new one and so on
 - `RollingUpdate` is default strategy
-
+___
 ## Commands
 1. create deployment
 >`kubectl create -f deployment-definition.yml` 
@@ -58,7 +58,7 @@ spec:
 6. rollout undo
 >`kubectl rollout undo <deployment-name>`
 
----
+___
 ⬅️ [[ReplicaSets]] | [[Service]] ➡️
 ### References
 1.

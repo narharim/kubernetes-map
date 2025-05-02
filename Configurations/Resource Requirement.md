@@ -1,3 +1,4 @@
+___
 - Resource Requirements tells how much CPU and memory your container needs.
 - There are two parts:
 	- `requests` -> Minimum needed. Scheduler uses this to find a node.
@@ -23,7 +24,8 @@ spec:
 - This means:
      - Container needs at least 64Mi of RAM and 0.25 CPU cores
     - It can use up to 128Mi RAM and 0.5 CPU cores
----
+
+___
 ⬅️ [[Security Context]] | [[Limit Range]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#example-1

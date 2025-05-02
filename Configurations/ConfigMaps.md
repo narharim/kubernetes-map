@@ -1,5 +1,4 @@
-
----
+___
 - ConfigMaps are used to pass configuration data in the form of key-value pairs.
 - Pod can consume these key-value pairs as environment variables for the application running inside it.
 ```yaml
@@ -10,9 +9,8 @@ metadata:
 data:
   key1: config1
   key2: config2
-
 ```
-
+___
 To get config maps key-value pairs as environment variables. we can define it in pod definition file
 ```yaml
 apiVersion: v1
@@ -29,6 +27,7 @@ spec:
 	      - configMapRef:
 		      name: my-config
 ```
+___
 To get single env from config we can use
 ```yaml
         env:
@@ -38,6 +37,7 @@ To get single env from config we can use
 			      name: my-config
 			      key: key1
 ```
+___
 ## Commands
 1. create configmap without YAML (imperative command)
 >`kubectl create configmap <name>`
@@ -52,6 +52,7 @@ To get single env from config we can use
 6. describe configmaps
 > `kubectl describe configmaps`
 
+___
 ⬅️ [[Service]] | [[Secrets]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/configuration/configmap/

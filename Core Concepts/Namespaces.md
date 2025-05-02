@@ -1,5 +1,5 @@
 
----
+___
 - Namespaces groups resources to provide isolation between them.
 - Its a way to divide cluster resources between multiple users (via [[Resource Quotas]])
 - It can be used for separating resources between projects or applying quotas. 
@@ -44,7 +44,7 @@ spec:
 
 ### Related
 - [[Linux kernel namespaces]]
-
+___
 ⬅️ [[Namespaces]] | [[]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/

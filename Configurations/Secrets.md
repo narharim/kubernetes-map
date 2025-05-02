@@ -1,9 +1,9 @@
-
----
+___
 - Secrets are used to pass sensitive data in the form of key-value pairs.
 - Secrets are similar to [[ConfigMaps]] but are specifically intended to hold confidential data.
 - Secrerts are not encrypted only base64 encoded. user must enable encryption at rest
 
+___
 ```yaml
 apiVersion: v1
 kind: Secret
@@ -12,9 +12,8 @@ metadata:
 data:
   key1: c2VjcmV0MQ==
   key2: c2VjcmV0Mg==
-
 ```
-
+___
 To get secrets. we can define it in pod definition file
 ```yaml
 apiVersion: v1
@@ -31,6 +30,7 @@ spec:
 	      - secretRef:
 		      name: my-secret
 ```
+___
 To get single env from secret we can use
 ```yaml
         env:
@@ -40,6 +40,7 @@ To get single env from secret we can use
 			      name: my-secret
 			      key: key1
 ```
+___
 ## Commands
 1. create secret without YAML (imperative command)
 >`kubectl create secret generic <name>`
@@ -53,7 +54,7 @@ To get single env from secret we can use
 >`kubectl get secret`
 6. describe secret
 > `kubectl describe configmaps`
-
+___
 ⬅️ [[ConfigMaps]] | [[Security Context]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/configuration/secret/
