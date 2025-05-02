@@ -43,6 +43,9 @@ spec:
 3. set context for namespace
 > `kubectl config set-context $(kubectl config current-context) --namespace=dev`
 
+### Related
+- [[Linux kernel namespaces]]
+
 ⬅️ [[Namespaces]] | [[]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
