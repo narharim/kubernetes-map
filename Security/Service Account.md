@@ -54,7 +54,7 @@ ___
         kubernetes.io/service-account.name: <name>
     ```
     
-    - But it’s not recommended unless absolutely necessary as these tokens are non-expiring, which poses a security risk.
+- But it’s not recommended unless absolutely necessary as these tokens are non-expiring, which poses a security risk.
 ___
 ## Best Practice
 
