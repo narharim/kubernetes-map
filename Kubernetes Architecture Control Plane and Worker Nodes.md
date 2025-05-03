@@ -1,5 +1,3 @@
-# Kubernetes Architecture Control Plane and Worker Nodes
-
 - Kubernetes architecture is based on a server (Master Node) and worker (Worker Nodes) style. 
 1. Master Node: The master node is responsible for managing the cluster. It includes several key components:
     - API Server: Acts as the entry point for users and other components to interact with the cluster.

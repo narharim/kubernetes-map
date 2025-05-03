@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"3e298b8cb3c194ef","type":"text","text":"","x":4266,"y":626,"width":250,"height":60},
 		{"type":"file","file":"Power and Benefits of Kubernetes.md","id":"f384797eb7675667","x":-880,"y":-50,"width":380,"height":419},
 		{"type":"file","file":"Ingress.md","id":"abffddc5b9e2328a","x":-240,"y":600,"width":400,"height":400},
 		{"type":"file","file":"Configurations/ConfigMaps.md","id":"62b404402e8f5a08","x":-700,"y":600,"width":400,"height":400},
@@ -22,8 +23,9 @@
 		{"type":"file","file":"How to create and manage k8s components.md","id":"ec5d2798dba8535a","x":920,"y":-155,"width":400,"height":400},
 		{"id":"2a23bfad40d823f6","type":"file","file":"Core Concepts/Namespaces.md","x":2920,"y":600,"width":400,"height":400},
 		{"id":"c4541f1eb5c01917","type":"file","file":"Objects In Kubernetes.md","x":2080,"y":-80,"width":400,"height":400},
-		{"id":"6f158ec9658d7d29","type":"file","file":"Policies.md","x":3800,"y":-40,"width":400,"height":400},
-		{"id":"d9eab0605ab78d50","type":"file","file":"Policies/Resource Quotas.md","x":3600,"y":520,"width":400,"height":400}
+		{"id":"6f158ec9658d7d29","type":"file","file":"Policies/K8s Policies.md","x":3800,"y":-40,"width":400,"height":400},
+		{"id":"d9eab0605ab78d50","type":"file","file":"Policies/Resource Quotas.md","x":3600,"y":520,"width":400,"height":400},
+		{"id":"c746505808035569","type":"file","file":"Policies/Limit Range.md","x":4200,"y":520,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
@@ -45,6 +47,7 @@
 		{"id":"f4effdde251dae34","fromNode":"2c03631a904de229","fromSide":"right","toNode":"c4541f1eb5c01917","toSide":"left"},
 		{"id":"bf0f925ebf792bca","fromNode":"c4541f1eb5c01917","fromSide":"bottom","toNode":"2a23bfad40d823f6","toSide":"top"},
 		{"id":"295f05a0dfee2d7e","fromNode":"6f158ec9658d7d29","fromSide":"bottom","toNode":"d9eab0605ab78d50","toSide":"top"},
-		{"id":"b4b2611d52894404","fromNode":"2a23bfad40d823f6","fromSide":"right","toNode":"d9eab0605ab78d50","toSide":"left"}
+		{"id":"b4b2611d52894404","fromNode":"2a23bfad40d823f6","fromSide":"right","toNode":"d9eab0605ab78d50","toSide":"left"},
+		{"id":"97ace3dac9481fb2","fromNode":"6f158ec9658d7d29","fromSide":"bottom","toNode":"c746505808035569","toSide":"top"}
 	]
 }
