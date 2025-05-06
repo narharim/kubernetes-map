@@ -1,5 +1,5 @@
+___
 - Node affinity is a way to control where a pod should be placed, by attracting it to certain nodes based on labels.
-
 ___
 ## Node Affinity Configuration
 

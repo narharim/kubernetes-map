@@ -11,7 +11,7 @@ ___
 - Kubernetes automatically creates a token (used for authentication) and stores it as a secret object. (Deprecated)    
 - Every namespace has a default service account.    
 - If you don’t specify a service account in the pod spec, the default one is used.
-- To avoid automatic token mount in spec section:
+- To avoid automatic token mount in spec section, use below field:
     
     ```yaml
     automountServiceAccountToken: false
@@ -63,9 +63,9 @@ ___
 ___
 ## Commands
 1. Create a service account 
->`kubectl create serviceaccount <name>`
+>`kubectl create sa <name>`
 2. view a service account  
-> `kubectl get serviceaccount`
+> `kubectl get sa`
 3. view token
 > `kubectl describe secret <name>`
 4. To create a token:

@@ -1,7 +1,5 @@
-## How to create and manage k8s components
-
- - There are actually two ways to create and manage K8s components.
- - Imperative and declarative
+- There are actually two ways to create and manage K8s components.
+- Imperative and declarative
 
 |Approach|Imperative|Declarative|
 |---|---|---|
