@@ -11,7 +11,6 @@
 		{"type":"file","file":"Introduction to Kubernetes.md","id":"d1de59fb84eddc63","x":-300,"y":-160,"width":380,"height":400},
 		{"type":"file","file":"Container.md","id":"a0dffd64e3330ef5","x":-880,"y":-720,"width":380,"height":400},
 		{"type":"file","file":"Linux kernel namespaces.md","id":"5b353c556dc64809","x":-1469,"y":-880,"width":400,"height":400},
-		{"type":"file","file":"Core Concepts/Pods/Pod Lifecycle.md","id":"d3196a4d8ad572b7","x":840,"y":1120,"width":400,"height":400},
 		{"type":"link","url":"https://twitter.com/narharistwt/status/1494958030600900610","id":"6a4de657a946aa1b","x":-1469,"y":-391,"width":400,"height":360},
 		{"type":"link","url":"https://twitter.com/narharistwt/status/1495253299435433986","id":"47a0665ac75fe6b1","x":-440,"y":-720,"width":400,"height":286},
 		{"type":"file","file":"Namespace APIs.md","id":"2883752c8e047225","x":-2000,"y":-1120,"width":400,"height":360},
@@ -23,9 +22,16 @@
 		{"type":"file","file":"How to create and manage k8s components.md","id":"ec5d2798dba8535a","x":920,"y":-155,"width":400,"height":400},
 		{"id":"2a23bfad40d823f6","type":"file","file":"Core Concepts/Namespaces.md","x":2920,"y":600,"width":400,"height":400},
 		{"id":"c4541f1eb5c01917","type":"file","file":"Objects In Kubernetes.md","x":2080,"y":-80,"width":400,"height":400},
-		{"id":"6f158ec9658d7d29","type":"file","file":"Policies/K8s Policies.md","x":3800,"y":-40,"width":400,"height":400},
 		{"id":"d9eab0605ab78d50","type":"file","file":"Policies/Resource Quotas.md","x":3600,"y":520,"width":400,"height":400},
-		{"id":"c746505808035569","type":"file","file":"Policies/Limit Range.md","x":4200,"y":520,"width":400,"height":400}
+		{"id":"c746505808035569","type":"file","file":"Policies/Limit Range.md","x":4200,"y":520,"width":400,"height":400},
+		{"type":"file","file":"Core Concepts/Pods/Pod Lifecycle.md","id":"d3196a4d8ad572b7","x":840,"y":1140,"width":400,"height":400},
+		{"id":"edcf636393e317f5","type":"file","file":"Core Concepts/Pods/Pod Conditions.md","x":940,"y":1720,"width":400,"height":400},
+		{"id":"76a56234412f49ff","type":"file","file":"Configurations/Liveness Probes.md","x":1000,"y":2320,"width":400,"height":400},
+		{"id":"c1b5496cef5ddd3f","type":"file","file":"Configurations/Readiness Probes.md","x":400,"y":2320,"width":415,"height":400},
+		{"id":"496b0c87499231d8","type":"file","file":"Configurations/Startup Probes.md","x":1600,"y":2320,"width":400,"height":400},
+		{"id":"69d2f72b952c31be","type":"file","file":"Core Concepts/Pods/Init Containers.md","x":240,"y":1140,"width":400,"height":400},
+		{"id":"601292587d459309","type":"file","file":"Core Concepts/Pods/Multi-Container Pods.md","x":1440,"y":1140,"width":400,"height":400},
+		{"id":"6f158ec9658d7d29","type":"file","file":"Policies/K8s Policies.md","x":3920,"y":-80,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
@@ -48,6 +54,12 @@
 		{"id":"bf0f925ebf792bca","fromNode":"c4541f1eb5c01917","fromSide":"bottom","toNode":"2a23bfad40d823f6","toSide":"top"},
 		{"id":"295f05a0dfee2d7e","fromNode":"6f158ec9658d7d29","fromSide":"bottom","toNode":"d9eab0605ab78d50","toSide":"top"},
 		{"id":"b4b2611d52894404","fromNode":"2a23bfad40d823f6","fromSide":"right","toNode":"d9eab0605ab78d50","toSide":"left"},
-		{"id":"97ace3dac9481fb2","fromNode":"6f158ec9658d7d29","fromSide":"bottom","toNode":"c746505808035569","toSide":"top"}
+		{"id":"97ace3dac9481fb2","fromNode":"6f158ec9658d7d29","fromSide":"bottom","toNode":"c746505808035569","toSide":"top"},
+		{"id":"aaf6392d6b232d95","fromNode":"d3196a4d8ad572b7","fromSide":"bottom","toNode":"edcf636393e317f5","toSide":"top"},
+		{"id":"6432bdce87055932","fromNode":"edcf636393e317f5","fromSide":"bottom","toNode":"76a56234412f49ff","toSide":"top"},
+		{"id":"f3a4757261479c1a","fromNode":"edcf636393e317f5","fromSide":"bottom","toNode":"c1b5496cef5ddd3f","toSide":"top"},
+		{"id":"89b48c3536c5e468","fromNode":"edcf636393e317f5","fromSide":"bottom","toNode":"496b0c87499231d8","toSide":"top"},
+		{"id":"081c421029bacd25","fromNode":"3ac281712c2c0126","fromSide":"bottom","toNode":"601292587d459309","toSide":"top"},
+		{"id":"d934c938556702f9","fromNode":"3ac281712c2c0126","fromSide":"bottom","toNode":"69d2f72b952c31be","toSide":"top"}
 	]
 }

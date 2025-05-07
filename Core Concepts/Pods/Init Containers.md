@@ -1,6 +1,7 @@
+___
 - In a [[Multi-Container Pods]], all containers continues to run as long as the [[Pod]] is running.
 - Sometimes, you only want to run a containers once, like:
-    - Pulling dependencies before the man app starts.
+    - Pulling dependencies before the main app starts.
 - For these kinds of one-time startup tasks, we use Init containers.
 - If either container stops or fails, Kubelet restarts the containers based on `restartPolicy`
 	- If `restartPolicy` is set to `Always` or `OnFailure`:
@@ -39,6 +40,6 @@ initContainers:
 ```
     
 ___
-⬅️ [[Multi-Container Pods]] | [[Liveness, Readiness, and Startup Probes]] ➡️
+⬅️ [[Multi-Container Pods]] | [[Pod Lifecycle]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/workloads/pods/init-containers/
