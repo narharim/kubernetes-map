@@ -15,26 +15,26 @@ ___
 containers:
   - name: web-server
     image: web-server-image
-    readinessProbe:
+    livenessProbe:
       httpGet:
-        path: /api/ready
+        path: /api/healthy
         port: 8080
 ```
 
 #### TCP Socket Example
 ```yaml
-readinessProbe:
+livenessProbe:
   tcpSocket:
     port: 3306
 ```
 
 #### Custom Script Example
 ```yaml
-readinessProbe:
+livenessProbe:
   exec:
     command:
       - python3
-      - check_status.py
+      - check_health.py
 ```
 ___
 #### Additional Fields

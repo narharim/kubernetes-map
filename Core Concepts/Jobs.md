@@ -8,7 +8,7 @@ ___
 
 ___
 ## Jobs using Pod
-- You create a pod that performs the same math operation.
+- You create a [[Pod]] that performs the math operation.
 - The pod starts, does the job, and exits but Kubernetes tries to restart the pod again and again. Why?  
 - Because of the `restartPolicy`, which is set to `Always` by default. 
 
@@ -88,6 +88,6 @@ ___
 > `kubectl delete job <job-name>`
 
 ___
-⬅️ [[]] | [[Cron Jobs]] ➡️
+⬅️ [[]] | [[Cron Job]] ➡️
 ### References
-1.
+1. https://kubernetes.io/docs/concepts/workloads/controllers/job/
