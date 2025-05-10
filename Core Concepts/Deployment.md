@@ -42,6 +42,7 @@ spec:
 - `Recreate` will bring all pods down and starts new ones with new version
 - `RollingUpdate` will bring one pod down and start new one and so on
 - `RollingUpdate` is default strategy
+- See [[Blue Green and Canary Deployment]] to see Additional Strategy
 ___
 ## Commands
 1. create deployment

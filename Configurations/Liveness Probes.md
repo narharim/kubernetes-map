@@ -42,7 +42,7 @@ ___
 - `periodSeconds`: Specifies how often the probe should be performed.
 - `failureThreshold`: By default, Kubernetes tries 3 times checking container is not ready. You can increase this threshold (e.g., to 10) to allow more retries before failing.
 ___
-⬅️ [[Pod Lifecycle]] | [[Startup Probes]] ➡️
+⬅️ [[Readiness Probes]] | [[Startup Probes]] ➡️
 
 ### References
 

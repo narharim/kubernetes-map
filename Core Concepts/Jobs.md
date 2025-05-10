@@ -88,6 +88,6 @@ ___
 > `kubectl delete job <job-name>`
 
 ___
-⬅️ [[]] | [[Cron Job]] ➡️
+⬅️ [[Blue Green and Canary Deployment]] | [[Cron Job]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/workloads/controllers/job/

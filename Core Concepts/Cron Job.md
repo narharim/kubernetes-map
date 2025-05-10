@@ -41,6 +41,6 @@ spec:
 
 
 ___
-⬅️ [[]] | [[]] ➡️
+⬅️ [[Jobs]] | [[]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/

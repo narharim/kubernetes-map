@@ -1,7 +1,4 @@
-# Namespace APIs
----
--  Prerequisite : [[Linux kernel namespaces]]
----
+___
 - The namespace API of the Linux kernel consist of three system calls, which allows us to create namespaces.
 ## clone
 - When we create a new child process using the ***fork()*** system call, the child process inherits most of its attributes from the parent process. It shares the same memory, file descriptors and signal handlers.
