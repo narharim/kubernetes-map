@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"0025981be7385371","type":"file","file":"Volumes/Persistent Volumes Claims.md","x":2616,"y":4447,"width":400,"height":400},
 		{"id":"3e298b8cb3c194ef","type":"text","text":"","x":4266,"y":626,"width":250,"height":60},
 		{"type":"file","file":"Power and Benefits of Kubernetes.md","id":"f384797eb7675667","x":-880,"y":-50,"width":380,"height":419},
 		{"type":"file","file":"Networking/Ingress.md","id":"abffddc5b9e2328a","x":-240,"y":600,"width":400,"height":400},
@@ -11,7 +12,6 @@
 		{"type":"link","url":"https://twitter.com/narharistwt/status/1494958030600900610","id":"6a4de657a946aa1b","x":-1469,"y":-391,"width":400,"height":360},
 		{"type":"link","url":"https://twitter.com/narharistwt/status/1495253299435433986","id":"47a0665ac75fe6b1","x":-440,"y":-720,"width":400,"height":286},
 		{"type":"file","file":"Namespace APIs.md","id":"2883752c8e047225","x":-2000,"y":-1120,"width":400,"height":360},
-		{"type":"file","file":"Excalidraw/K8s-Architecture.excalidraw.md","id":"65f6250c6dd6b766","x":1440,"y":-777,"width":400,"height":457},
 		{"type":"file","file":"Kubernetes Architecture Control Plane and Worker Nodes.md","id":"98b3dfe83ebbc526","x":320,"y":-250,"width":400,"height":400},
 		{"type":"file","file":"Core Concepts/Main kubernetes components.md","id":"2c03631a904de229","x":1460,"y":-40,"width":360,"height":400},
 		{"type":"file","file":"How to create and manage k8s components.md","id":"ec5d2798dba8535a","x":920,"y":-155,"width":400,"height":400},
@@ -41,10 +41,13 @@
 		{"id":"c746505808035569","type":"file","file":"Policies/Limit Range.md","x":4266,"y":520,"width":400,"height":400},
 		{"id":"f0671c5aa4f95168","type":"file","file":"Scheduling and Eviction/Node Affinity.md","x":2395,"y":1920,"width":400,"height":400},
 		{"id":"ce788c3239777bdc","type":"file","file":"Scheduling and Eviction/Taints and Tolerations.md","x":3000,"y":1920,"width":400,"height":400},
-		{"id":"d732f22088681345","type":"file","file":"Scheduling and Eviction/Scheduling.md","x":2640,"y":1301,"width":400,"height":400},
 		{"id":"20f0bc0db4eec84a","type":"file","file":"Networking/K8s Networking.md","x":4059,"y":1301,"width":400,"height":400},
-		{"id":"ca83988962edf0eb","x":3720,"y":1908,"width":400,"height":400,"type":"file","file":"Networking/Network Policies.md"},
-		{"id":"5021e07c1e713e1a","x":4459,"y":1908,"width":400,"height":400,"type":"file","file":"Networking/Ingress.md"}
+		{"id":"ca83988962edf0eb","type":"file","file":"Networking/Network Policies.md","x":3720,"y":1908,"width":400,"height":400},
+		{"id":"5021e07c1e713e1a","type":"file","file":"Networking/Ingress.md","x":4459,"y":1908,"width":400,"height":400},
+		{"id":"d732f22088681345","type":"file","file":"Scheduling and Eviction/Scheduling.md","x":2683,"y":1301,"width":400,"height":400},
+		{"id":"528cf7724e7970ae","type":"file","file":"Volumes/K8s Volume.md","x":2795,"y":2720,"width":400,"height":400},
+		{"id":"d7f3d41413c221df","type":"file","file":"Volumes/Persistent Volumes.md","x":2995,"y":3880,"width":400,"height":400},
+		{"id":"57b8644a2c7e682d","type":"file","file":"Volumes/Volumes.md","x":2560,"y":3280,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
@@ -86,6 +89,9 @@
 		{"id":"0376485c5ef93c71","fromNode":"d732f22088681345","fromSide":"bottom","toNode":"ce788c3239777bdc","toSide":"top"},
 		{"id":"9f6093fe3917533a","fromNode":"9392df28b0bee73e","fromSide":"bottom","toNode":"a5122ee2e561b2fb","toSide":"top"},
 		{"id":"a47b5e808744142b","fromNode":"20f0bc0db4eec84a","fromSide":"bottom","toNode":"ca83988962edf0eb","toSide":"top"},
-		{"id":"7bb18d7af1ecef27","fromNode":"20f0bc0db4eec84a","fromSide":"bottom","toNode":"5021e07c1e713e1a","toSide":"top"}
+		{"id":"7bb18d7af1ecef27","fromNode":"20f0bc0db4eec84a","fromSide":"bottom","toNode":"5021e07c1e713e1a","toSide":"top"},
+		{"id":"f6ad4c351bd1362b","fromNode":"528cf7724e7970ae","fromSide":"bottom","toNode":"57b8644a2c7e682d","toSide":"top"},
+		{"id":"cbbf451dd05c164e","fromNode":"57b8644a2c7e682d","fromSide":"bottom","toNode":"d7f3d41413c221df","toSide":"top"},
+		{"id":"6dea243177b2f66c","fromNode":"d7f3d41413c221df","fromSide":"bottom","toNode":"0025981be7385371","toSide":"top"}
 	]
 }

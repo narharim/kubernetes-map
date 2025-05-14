@@ -13,11 +13,11 @@
 ### What are the benefits of running multiple containers in Pod? 
 ---
 - Consider a scenario where the main container in a pod is a web server that serves files from
-directory mounted as [[Volume]], while an additional container (a sidecar container) at regular interval downloads and store content in the web server’s directory. Thus forming a single cohesive unit of service. 
+directory mounted as [[Volumes]], while an additional container ([[Multi-Container Pods]]) at regular interval downloads and store content in the web server’s directory. Thus forming a single cohesive unit of service. 
 
 ### How are containers within a Pod able to share resource and communicate with each other?
 ---
-- When containers are created within a pod, they share the same network and UTS namespaces, meaning they all share the same hostname and network interfaces. This allows them to communicate with each other using the loopback interface (localhost). Similarly all containers of a pod share resources through storage volumes (mount namespace) and communicate through the IPC namespace.
+- When containers are created within a pod, they share the same network and UTS namespaces, meaning they all share the same hostname and network interfaces. This allows them to communicate with each other using the loopback interface (localhost). Similarly all containers of a pod share resources through storage volumes (mount namespace [[Linux kernel namespaces#Mount Namespace]]) and communicate through the IPC namespace [[Linux kernel namespaces#IPC Namespace]].
 ---
 ### How can containers share the same IP and Port space?
 - Containers in a pod run in same Network namespace, they share the same IP address and port space. This means that we cannot run the processes in containers of the same pod which has same port number or we'll run into port conflicts.

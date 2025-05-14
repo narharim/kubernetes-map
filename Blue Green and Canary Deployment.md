@@ -10,22 +10,19 @@ ___
     1. Deploy green version (new deployment)
     2. Run tests on green version
     3. Once satisfied, switch traffic from blue to green
-        
+___
 ## How to switch
-
 - Pods have labels like `version: v1` or `version: v2`
 - Service routes traffic using label selectors
     - Initially: `selector: version=v1`    
     - After testing: change to `selector: version=v2`
 - Now the service routes all traffic to the green (new) deployment
-
 ___
 ## Canary Deployment
 
 - Canary deployment allows you deploy a new version of the app is deployed alongside the existing version.
 - Only a small portion of the traffic is routed to the new version while the majority stays to on the stable version
 - This allows testing the new version with real traffic before fully rolling it out.
-
 ___
 ## Limitation
 - Traffic splitting is based on the number of pods.

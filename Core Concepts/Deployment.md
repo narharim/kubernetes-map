@@ -47,7 +47,6 @@ ___
 ## Commands
 1. create deployment
 >`kubectl create -f deployment-definition.yml` 
-
 2. get deplotment
 > `kubectl get deployments`
 3. describe deployment

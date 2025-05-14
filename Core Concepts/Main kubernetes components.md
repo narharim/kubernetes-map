@@ -3,7 +3,7 @@
 3) [[Deployment]]
 4) [[Service]]
 5) [[Ingress]]
-6) [[Volume]]
+6) [[K8s Volume]]
 7) [[Jobs]]
 8) [[Cron Job]]
 9) [[StatefulSet]]  
