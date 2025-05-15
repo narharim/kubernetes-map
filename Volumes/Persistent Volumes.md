@@ -8,18 +8,21 @@ ___
 
 ___
 ## What is it
-
 - It is a cluster-wide resource that provides abstracted, reusable storage for users.
-- Configured with:
-	-  Access Modes: How the volume can be accessed
-	    -  'ReadWriteOnce' - one node can mount read/write
-	    -  'ReadOnlyMany' - many nodes can mount read-only
-	    - 'ReadWriteMany' - many nodes can mount read/write
-  - Capacity: how much storage is available
-  - Storage backend: can be local (`hostPath`) or remote (e.g., NFS, AWS EBS, etc.)
 
----
+___
+## Configured with:
+####  Access Modes: 
+- How the volume can be accessed
+	-   'ReadWriteOnce' - one node can mount read/write
+	-  'ReadOnlyMany' - many nodes can mount read-only
+	- 'ReadWriteMany' - many nodes can mount read/write
+#### Capacity: 
+- how much storage is available
+#### Storage backend:
+- can be local (`hostPath`) or remote (e.g., NFS, AWS EBS, etc.)
 
+___
 ## Example:
 
 ```yaml
