@@ -59,6 +59,6 @@ ___
 > `kubectl taint nodes node1 room=strong-smell:NoSchedule`
 ___
 
-⬅️ [[Service Account]] | [[Node Affinity]] ➡️
+⬅️ [[Service Accounts]] | [[Node Affinity]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/

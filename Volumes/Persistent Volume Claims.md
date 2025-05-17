@@ -10,7 +10,6 @@ ___
 - If it matches Access Modes ([[Persistent Volumes#Access Modes]]), and [[StorageClass]] it is automatically binded
 - But if multiple volumes are suitable, you can use [[Labels And Selectors]] to target a specific PV.
 - If no suitable volume is available then PVC remains in `Pending` state and once a matching PV is added, it binds automatically.
-
 ___
 ## PVC Example Manifest
 
@@ -61,4 +60,4 @@ The  `persistentVolumeReclaimPolicy` of the PV determines the behavior:
 ___
 ⬅️ [[Persistent Volumes]] | [[StorageClass]] ➡️
 ### References
-1.    
+1. 

@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"0025981be7385371","type":"file","file":"Volumes/Persistent Volumes Claims.md","x":2616,"y":4447,"width":400,"height":400},
 		{"id":"3e298b8cb3c194ef","type":"text","text":"","x":4266,"y":626,"width":250,"height":60},
 		{"type":"file","file":"Power and Benefits of Kubernetes.md","id":"f384797eb7675667","x":-880,"y":-50,"width":380,"height":419},
 		{"type":"file","file":"Networking/Ingress.md","id":"abffddc5b9e2328a","x":-240,"y":600,"width":400,"height":400},
@@ -36,7 +35,7 @@
 		{"id":"66451d551d4bcbc6","type":"file","file":"Core Concepts/Cron Job.md","x":2683,"y":597,"width":397,"height":406},
 		{"id":"b730d44e4b44a5ca","type":"file","file":"Security/Security Context.md","x":-2240,"y":3427,"width":400,"height":400},
 		{"id":"695455ecca245474","type":"file","file":"Security/K8s Security.md","x":-1840,"y":2840,"width":400,"height":400},
-		{"id":"a5122ee2e561b2fb","type":"file","file":"Security/Service Account.md","x":-1440,"y":3427,"width":400,"height":400},
+		{"id":"a5122ee2e561b2fb","type":"file","file":"Security/Service Accounts.md","x":-1440,"y":3427,"width":400,"height":400},
 		{"id":"c4541f1eb5c01917","type":"file","file":"Objects In Kubernetes/K8s Objects.md","x":2728,"y":-555,"width":400,"height":400},
 		{"id":"c746505808035569","type":"file","file":"Policies/Limit Range.md","x":4266,"y":520,"width":400,"height":400},
 		{"id":"f0671c5aa4f95168","type":"file","file":"Scheduling and Eviction/Node Affinity.md","x":2395,"y":1920,"width":400,"height":400},
@@ -46,8 +45,10 @@
 		{"id":"5021e07c1e713e1a","type":"file","file":"Networking/Ingress.md","x":4459,"y":1908,"width":400,"height":400},
 		{"id":"d732f22088681345","type":"file","file":"Scheduling and Eviction/Scheduling.md","x":2683,"y":1301,"width":400,"height":400},
 		{"id":"528cf7724e7970ae","type":"file","file":"Volumes/K8s Volume.md","x":2795,"y":2720,"width":400,"height":400},
-		{"id":"d7f3d41413c221df","type":"file","file":"Volumes/Persistent Volumes.md","x":2995,"y":3880,"width":400,"height":400},
-		{"id":"57b8644a2c7e682d","type":"file","file":"Volumes/Volumes.md","x":2560,"y":3280,"width":400,"height":400}
+		{"id":"57b8644a2c7e682d","type":"file","file":"Volumes/Volumes.md","x":2560,"y":3280,"width":400,"height":400},
+		{"id":"c5e21872543cc1d8","x":4260,"y":3280,"width":400,"height":400,"type":"file","file":"Volumes/StorageClass.md"},
+		{"id":"d7f3d41413c221df","type":"file","file":"Volumes/Persistent Volumes.md","x":3120,"y":3220,"width":400,"height":400},
+		{"id":"0025981be7385371","type":"file","file":"Volumes/Persistent Volume Claims.md","x":3700,"y":3320,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"8b2b589cfd74edbf","fromNode":"d1de59fb84eddc63","fromSide":"left","toNode":"f384797eb7675667","toSide":"right"},
@@ -91,7 +92,8 @@
 		{"id":"a47b5e808744142b","fromNode":"20f0bc0db4eec84a","fromSide":"bottom","toNode":"ca83988962edf0eb","toSide":"top"},
 		{"id":"7bb18d7af1ecef27","fromNode":"20f0bc0db4eec84a","fromSide":"bottom","toNode":"5021e07c1e713e1a","toSide":"top"},
 		{"id":"f6ad4c351bd1362b","fromNode":"528cf7724e7970ae","fromSide":"bottom","toNode":"57b8644a2c7e682d","toSide":"top"},
-		{"id":"cbbf451dd05c164e","fromNode":"57b8644a2c7e682d","fromSide":"bottom","toNode":"d7f3d41413c221df","toSide":"top"},
-		{"id":"6dea243177b2f66c","fromNode":"d7f3d41413c221df","fromSide":"bottom","toNode":"0025981be7385371","toSide":"top"}
+		{"id":"92b824d97e0151e5","fromNode":"57b8644a2c7e682d","fromSide":"right","toNode":"d7f3d41413c221df","toSide":"left"},
+		{"id":"2d7d8965c38d0062","fromNode":"d7f3d41413c221df","fromSide":"right","toNode":"0025981be7385371","toSide":"left"},
+		{"id":"55f7386df3b200ef","fromNode":"0025981be7385371","fromSide":"right","toNode":"c5e21872543cc1d8","toSide":"left"}
 	]
 }

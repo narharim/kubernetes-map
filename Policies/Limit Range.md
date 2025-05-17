@@ -41,6 +41,6 @@ spec:
 
 ```
 ---
-⬅️ [[Resource Requirement]] | [[Service Account]] ➡️
+⬅️ [[Resource Requirement]] | [[Service Accounts]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/policy/limit-range/

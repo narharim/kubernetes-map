@@ -45,6 +45,6 @@ ___
 2. get persistent volumes
 > `kubectl get pv`
 ___
-⬅️ [[Volumes]] | [[Persistent Volumes Claims]] ➡️
+⬅️ [[Volumes]] | [[Persistent Volume Claims]] ➡️
 ### References
 1. https://kubernetes.io/docs/concepts/storage/persistent-volumes/
