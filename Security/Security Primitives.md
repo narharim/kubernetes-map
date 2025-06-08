@@ -16,7 +16,8 @@ ___
 ### Authentication Methods
 These control _who_ can access the cluster:
 - Client certificates
-- External auth (e.g., LDAP, OIDC)
+- Static token file
+- External auth (e.g., OIDC)
 - [[Service Accounts]] (for apps running in the cluster)
 
 ___
@@ -34,6 +35,6 @@ ___
 - By default, any [[Pod]] can talk to any other pod in the cluster.    
 - Use [[Network Policies]] to restrict traffic between pods.    
 ___
-⬅️ [[]] | [[]] ➡️
+⬅️ [[]] | [[KubeConfig]] ➡️
 ### References
 1.

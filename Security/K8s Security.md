@@ -1,2 +1,5 @@
 1. [[Security Context]]
 2. [[Service Accounts]]
+3. [[Security Primitives]]
+4. [[KubeConfig]]
+5. [[Authorization]]

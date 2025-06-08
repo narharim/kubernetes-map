@@ -1,4 +1,3 @@
-
 ___
 - Security context is like setting security rules for your [[Pod]] or [[Container]]. 
 - It defines what Pod/Container can do and cannot do inside a node.

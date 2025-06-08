@@ -1,7 +1,7 @@
 ## Why Kubernetes?
 ---
 - Kubernetes has emerged as a leading cloud computing tool, gaining popularity and widespread adoption.
-- It is rapidly becoming a common choice for major companies actively migrating their infrastructure to leverage the [[Power and Benefits of Kubernetes]].
+- It is rapidly becoming a common choice for major companies actively migrating their infrastructure to leverage the benefits of Kubernetes.
 
 ## What is Kubernetes?
 ---
